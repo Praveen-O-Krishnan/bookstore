@@ -1,77 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Book store</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Book store</title>
 
-    <!-- Bootstrap -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap -->
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!-- main container block begin -->
-    <div class="container-fluid">
-      <div class="row">
-        <!-- header -->
-        <div class="site-header">
-          <div class="site-banner">
-    <!--header first line text begins by shiva-->
-            <div class="container">
-        <div class="row">
-          <div class="textline1">
-            <h2 class="textline-1">Rent your textbooks. Save a bundle</h2>
-          </div>
-    <!--header first line text ends by shiva-->
-    <!--header Tagline text begins by shiva-->
-          <div class="textline2">
-            <h3 class="textline-2">Rent and Save up to 90%!</h3>
-          </div>
-    <!--header first line text ends by shiva-->
-    <!--header search line orange box begins by shiva-->
-          <div class="searchouterbox">
-          </div>
-    <!--header search line orange box ends by shiva-->
-    <!--header search input box begins by shiva-->
-          <div class="searchbox">
-              <form>
-                <input type="text" value="      Search by ISBN, Title,or Author">
-              </form>
-    <!--header search input box ends by shiva-->
-    <!--header search search icon begins by shiva-->
-            <div class="searchicon">
-              <i class="glyphicon glyphicon-search"></i>
+  <style type="text/css">
+    @import url("css/style.css");
+    @import url("css/header-search.css");
+  </style>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- main container block begin -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- header -->
+      <div class="site-header">
+        <div class="site-banner">
+
+          <!-- code written by Shiva: begin -->
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="site-search-block">
+                  <div class="site-search__text">
+                    <h1 class="site-search__text--head">Rent your textbooks. Save a bundle</h1>
+                    <h2 class="site-search__text--sub-head">Rent and Save up to 90%!</h2>
+                  </div>
+                  <div class="site-search-container">
+                    <div class="site-search-field">
+                      <span class="site-search-field__icon"><i class="glyphicon glyphicon-search"></i></span><input type="text" name="" value="" placeholder="Search by ISBN, Title,or Author">
+                    </div>
+                    <div class="site-search-btn"><button class="" name="button">Find a book</button></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-    <!--header search search icon ends by shiva-->
-    <!--header search find a book button begins by shiva-->
-          <div class="findabook">
-            <button class="findbutton">Find a book</button>
-          </div>
-    <!--header search find a book button ends by shiva-->
-        </div>
-        </div>
+          <!-- code written by Shiva: end -->
 
-          </div>
         </div>
-        <!-- header -->
       </div>
+      <!-- header -->
     </div>
-    <!-- main container block end -->
+  </div>
+  <!-- main container block end -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
