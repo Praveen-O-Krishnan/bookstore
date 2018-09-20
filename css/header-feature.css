@@ -1,0 +1,158 @@
+**** header-feature added by Arun Starts*****/
+
+
+/*Mobile Device Media Query starts */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .feature-block {
+    margin-top: 10px;
+    padding: 10px
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .shipping-block {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    margin: 20px 0 0px 0px;
+    padding: 20px 0 0 10px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .icon-block {
+    text-align: left;
+    color: #ffbc00;
+   }
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width: 736px) {
+  .block-caption {
+    margin: -57px 0 0 55px;
+    padding: 0px;
+    }
+  }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .text1 {
+    font-size: 22px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  h5 {
+    font-size: 18px;
+    font-weight: 100;
+   }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .btn-link {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #59a291;
+   }
+}
+/*Mobile Device Media Query ends */
+
+/*Ipad 1024 Device Media Query starts */
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+.shipping-block {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	border-radius: 6px;
+	margin: 40px 0 25px 0px;
+	padding: 20px 0 0 20px;
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  .icon-block {
+    text-align: left;
+    color: #ffbc00;
+   }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  .block-caption {
+    margin: -58px 0 0 50px;
+    padding: 0px;
+    }
+  }
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  .text1 {
+    font-size: 20px;
+    }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  h5 {
+    font-size: 18px;
+    font-weight: 100;
+   }
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+  .btn-link {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #59a291;
+   }
+}
+/*Ipad 1024 Device Media Query ends */
+
+/*Desktop Device Media Query starts */
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+	.feature-block {
+		margin: 0px;
+		padding: 50px 5px;
+	
+	}
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+	.shipping-block {
+		background-color: rgba(0, 0, 0, 0.4);
+		margin: 30px 10px 0px 10px;
+		padding: 10px 0 7px 15px;
+		border-radius: 6px;
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+	.icon-block {
+		float: left;
+		color: #ffbc00;
+		margin: 5px;
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+  .block-caption {
+    margin: -7px 0 0 45px;
+    padding: 0px;
+    }
+  }
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+  .text1 {
+    font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+  h5 {
+    font-size: 13px;
+    font-weight: 100;
+   }
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+  .btn-link {
+    font-size: 12px;
+    color: #59a291;
+    padding-top: 10px;  
+   }
+}
+/*Desktop Device Media Query ends */
+
+/***** header-feature added by Arun Ends****/
