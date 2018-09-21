@@ -10,23 +10,22 @@
   <!-- Bootstrap -->
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style type="text/css">
-  @import url("css/style.css");
-  @import url("css/header-search.css");
-  @import url("css/header-navigation.css");
-</style>
+    @import url("css/style.css");
+    @import url("css/header-search.css");
+    @import url("css/header-feature.css");
+  </style>
 
 
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
   <!-- main container block begin -->
@@ -35,78 +34,96 @@
       <!-- header -->
       <div class="site-header">
         <div class="site-banner">
-          <!-- header-logopart by Akanksha begin -->
+
+          <!-- code written by Shiva: begin -->
           <div class="container">
-            <div class="header-section">
-              <div class="col-md-2">
-                <div class="logoimage">
-                  <img src="img/logo.png" alt="logoimage"><span class="logotext">Rental Book</span>
-                </div>
-              </div>
-                <div class="col-md-7">
-                <div class="topnav" id="myTopnav">
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                  </a>
-                  <a href="#" class="active">Home</a>
-                  <a href="#">About us</a>
-                  <a href="#">How to rent</a>
-                  <a href="#">FAQs</a>
-                  <a href="#">Contact us</a>
-                </div>
-                <script>
-                function myFunction() {
-                  var x = document.getElementById("myTopnav");
-                  if (x.className === "topnav") {
-                    x.className += " responsive";
-                  } else {
-                    x.className = "topnav";
-                  }
-                }
-              </script>
-            </div>
-            <div class="col=-md-3">
-                <button type="button" name="create" class="createbutton">Create an account</button>
-                <button type="button" name="sign" class="signin">Sign In</button>
-            </div>
-          </div>
-        </div>
             <div class="row">
-              <hr class="hrline">
-            </div>
-        <!-- header-logopart by Akanksha end-->
-
-        <!-- code written by Shiva: begin -->
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="site-search-block">
-                <div class="site-search__text">
-                  <h1 class="site-search__text--head">Rent your textbooks. Save a bundle</h1>
-                  <h2 class="site-search__text--sub-head">Rent and Save up to 90%!</h2>
-                </div>
-                <div class="site-search-container">
-                  <div class="site-search-field">
-                    <span class="site-search-field__icon"><i class="glyphicon glyphicon-search"></i></span><input type="text" name="" value="" placeholder="Search by ISBN, Title,or Author">
+              <div class="col-xs-12">
+                <div class="site-search-block">
+                  <div class="site-search__text">
+                    <h1 class="site-search__text--head">Rent your textbooks. Save a bundle</h1>
+                    <h2 class="site-search__text--sub-head">Rent and Save up to 90%!</h2>
                   </div>
-                  <div class="site-search-btn"><button class="" name="button">Find a book</button></div>
+                  <div class="site-search-container">
+                    <div class="site-search-field">
+                      <span class="site-search-field__icon"><i class="glyphicon glyphicon-search"></i></span><input type="text" name="" value="" placeholder="Search by ISBN, Title,or Author">
+
+                    <div class="site-search-btn"><button class="" name="button">Find a book</button></div></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- code written by Shiva: end -->
+
+          <!-- code written by Arun: begin -->
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                <div class="shipping-block">
+                  <div class="icon-block">
+                    <i class="fa fa-truck"></i>
+                  </div>
+                  <div class="block-caption">
+                    <h3 class="text1">Free Shipping</h3>
+                    <h5 class="text2">Both Ways</h5>
+                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                <div class="shipping-block">
+                  <div class="icon-block">
+                    <i class="fa fa-refresh"></i>
+                  </div>
+                  <div class="block-caption">
+                    <h3 class="text1">Easy Returns</h3>
+                    <h5 class="text2">It's fast!</h5>
+                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                <div class="shipping-block">
+                  <div class="icon-block">
+                    <i class="fa fa-pencil"></i>
+                  </div>
+                  <div class="block-caption">
+                    <h3 class="text1">Take Notes</h3>
+                    <h5 class="text2">Feel free to highlight</h5>
+                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                <div class="shipping-block">
+                  <div class="icon-block">
+                    <i class="fa fa-thumbs-o-up"></i>
+                  </div>
+                  <div class="block-caption">
+                    <h3 class="text1">Satisfication</h3>
+                    <h5 class="text2">Guranteed</h5>
+                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- code written by Arun: end -->
+
         </div>
-        <!-- code written by Shiva: end -->
-
       </div>
+      <!-- header -->
     </div>
-    <!-- header -->
   </div>
-</div>
-<!-- main container block end -->
+  <!-- main container block end -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
