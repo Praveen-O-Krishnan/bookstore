@@ -1,0 +1,118 @@
+/***** Featured Books added by Arun ****/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+.content-title h4 {
+  font-size: 25px;
+  color: #343434;
+  text-align: center;
+  margin-top: 40px;
+  }
+.book-image {
+  text-align: center;
+  margin-top: 30px;
+  }
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  }
+.book-desc {
+  font-size: 15px;
+  color: #666363;
+  text-align: center;
+  }
+.book-desc dd {
+  font-size: 15px;
+  color: #ccc025;
+  text-align: center;
+  }
+.btn-primary {
+  background-color: #22dec5;
+  border-style: none;
+  display: table;
+  margin: auto;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.content-title h4 {
+  font-size: 25px;
+  color: #343434;
+  text-align: center;
+  margin-top: 40px;
+  }
+.book-image {
+  text-align: center;
+  margin-top: 30px;
+  }
+.book-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  }
+.book-desc {
+  font-size: 15px;
+  color: #666363;
+  text-align: center;
+  }
+.book-desc dd {
+  font-size: 15px;
+  color: #ccc025;
+  text-align: center;
+  }
+.btn-primary {
+  background-color: #22dec5;
+  border-style: none;
+  display: table;
+  margin: auto;
+  }
+}
+
+@media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
+.content-title h4 {
+  font-size: 25px;
+  color: #343434;
+  text-align: center;
+  margin-top: 40px;
+  }
+.book-image {
+  text-align: left;
+  padding-left: 75px;
+  }
+.book-title {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 75px;
+  color: black;
+  }
+.book-desc dt {
+  font-size: 12px;
+  color: #666363;
+  float: left;
+  width: 100px;
+  text-align: left;
+  padding-left: 75px;
+  }
+.book-desc dd {
+  font-size: 12px;
+  color: #ccc025;
+  text-align: left;
+  padding-left: 137px;
+  }
+.btn-primary {
+  background-color: #22dec5;
+  border-style: none;
+  margin-left: 75px;
+  }
+.category-block__outer {
+  margin-left: -15px;
+  }
+.category-block {
+  margin: 25px 30px 10px 20px;
+  }
+}
+
+/***** Featured Books added by Arun****/
