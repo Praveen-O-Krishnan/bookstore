@@ -1,4 +1,7 @@
-
+.menuborder{
+border-bottom:1px solid #fff;
+padding: 10px;
+}
 .logoimage{
   width: 40px;
   margin-top: 20px;
@@ -145,16 +148,4 @@ margin-left: 57px;
   width: 70px;
   margin-left: 8px;
   font-size: 15px;
-}
-.hrline{
-  background-color: #9d928c;
-  margin-top: 5px;
-  width:100%;
-}
-@media only screen and (min-width:1200px) {
-.hrline{
-  background-color: #9d928c;
-margin top:200px;
-  width:100%;
-  }
 }
