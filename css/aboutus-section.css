@@ -1,0 +1,72 @@
+/* Aboutus Sction begins coded by Shiva*/
+.secondbanner{
+  width: auto;
+  height: 960px;
+  background: url("../img/site-banner-2.jpeg") no-repeat 100% 0;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 375px) {
+  .secondbanner {
+  height: 868px;
+}
+}
+@media only screen and (min-width: 414px) {
+  .secondbanner {
+  height: 796px;
+}
+}
+@media only screen and (min-width: 568px) {
+  .secondbanner {
+  height: 620px;
+}
+}
+@media only screen and (min-width: 667px) {
+  .secondbanner {
+  height: 560px;
+}
+}
+@media only screen and (min-width: 768px) {
+  .secondbanner {
+  height: 473px;
+}
+}
+@media only screen and (min-width: 1024px) {
+  .secondbanner {
+  height: 367px;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .secondbanner {
+  height: 330px;
+}
+}
+
+.aboutus{
+  text-align: center;
+}
+.aboutus-section{
+  text-align: left;
+}
+.dot{
+  text-align: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #f9861c;
+  display: inline-block;
+}
+.dottext{
+  font-size: 18px;
+  padding: 5px;
+  margin: 7px 6px;
+}
+.dottext1{
+  font-size: 16px;
+  margin: -31px 0px 0px 47px;
+  color: #ffb912;
+}
+.description1{
+  margin-top: 15px;
+  text-align: justify;
+}
+/* Aboutus Sction ends coded by Shiva*/
