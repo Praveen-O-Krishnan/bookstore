@@ -1,0 +1,52 @@
+.top-catg-bg{
+background-color: #1bbfa4;
+width: 100%;
+clear: both;
+}
+.top-catg-page{
+  text-align: center;
+}
+.top-catg-section{
+  text-align: center;
+}
+.top-catg-head{
+  background: #f4c305;
+
+}
+.top-catg-head-text{
+  padding: 5px;
+  text-align: left;
+  margin-left: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .top-catg-head-text {
+  font-size: 15px;
+}
+}
+.top-catg-text{
+text-align: left;
+margin-left: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .top-catg-text {
+  font-size: 12px;
+}
+}
+.moretext{
+  color:#302126;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.seeallcatg{
+  text-align: center;
+}
+.seeallbutton{
+  padding: 3px;
+  background-color: Transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  width: 150px;
+  height: 25px;
+}
