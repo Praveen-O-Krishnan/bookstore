@@ -6,20 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Book store</title>
-
   <!-- Bootstrap -->
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <style type="text/css">
   @import url("css/style.css");
   @import url("css/header-search.css");
   @import url("css/header-feature.css");
   @import url("css/header-navigation.css");
   @import url("css/featured-books.css");
+  @import url("css/top-categories.css");
 </style>
-
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,7 +34,6 @@
       <!-- header -->
       <div class="site-header">
         <div class="site-banner">
-
           <!-- header-logopart by Akanksha begin -->
           <div class="container">
             <div class="header-section">
@@ -56,213 +53,191 @@
                   <a href="#">FAQs</a>
                   <a href="#">Contact us</a>
                 </div>
-            </div>
-            <div class="col=-md-3">
-              <div class="createaccount">
-              <button type="button" name="create" class="createbutton">Create an account</button>
-              <button type="button" name="sign" class="signin">Sign In</button>
-            </div>
-          </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-        <div class="row">
-        <div class="menuborder"></div>
-        </div>
-        </div>
-        <!-- header-logopart by Akanksha end-->
-
-        <!-- code written by Shiva: begin -->
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="site-search-block">
-                <div class="site-search__text">
-                  <h1 class="site-search__text--head">Rent your textbooks. Save a bundle</h1>
-                  <h2 class="site-search__text--sub-head">Rent and Save up to 90%!</h2>
-                </div>
-                <div class="site-search-container">
-                  <div class="site-search-field">
-                    <span class="site-search-field__icon"><i class="glyphicon glyphicon-search"></i></span><input type="text" name="" value="" placeholder="Search by ISBN, Title,or Author">
-
-                    <div class="site-search-btn"><button class="" name="button">Find a book</button></div></div>
-                  </div>
+              </div>
+              <div class="col=-md-3">
+                <div class="createaccount">
+                  <button type="button" name="create" class="createbutton">Create an account</button>
+                  <button type="button" name="sign" class="signin">Sign In</button>
                 </div>
               </div>
             </div>
           </div>
-          <!-- code written by Shiva: end -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="menuborder"></div>
+            </div>
+          </div>
+          <!-- header-logopart by Akanksha end-->
 
-          <!-- code written by Arun: begin -->
+          <!-- code written by Shiva: begin -->
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
-                <div class="shipping-block">
-                  <div class="icon-block">
-                    <i class="fa fa-truck"></i>
+              <div class="col-xs-12">
+                <div class="site-search-block">
+                  <div class="site-search__text">
+                    <h1 class="site-search__text--head">Rent your textbooks. Save a bundle</h1>
+                    <h2 class="site-search__text--sub-head">Rent and Save up to 90%!</h2>
                   </div>
-                  <div class="block-caption">
-                    <h3 class="text1">Free Shipping</h3>
-                    <h5 class="text2">Both Ways</h5>
-                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
-                <div class="shipping-block">
-                  <div class="icon-block">
-                    <i class="fa fa-refresh"></i>
-                  </div>
-                  <div class="block-caption">
-                    <h3 class="text1">Easy Returns</h3>
-                    <h5 class="text2">It's fast!</h5>
-                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
-                <div class="shipping-block">
-                  <div class="icon-block">
-                    <i class="fa fa-pencil"></i>
-                  </div>
-                  <div class="block-caption">
-                    <h3 class="text1">Take Notes</h3>
-                    <h5 class="text2">Feel free to highlight</h5>
-                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
-                <div class="shipping-block">
-                  <div class="icon-block">
-                    <i class="fa fa-thumbs-o-up"></i>
-                  </div>
-                  <div class="block-caption">
-                    <h3 class="text1">Satisfication</h3>
-                    <h5 class="text2">Guranteed</h5>
-                    <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                  <div class="site-search-container">
+                    <div class="site-search-field">
+                      <span class="site-search-field__icon"><i class="glyphicon glyphicon-search"></i></span><input type="text" name="" value="" placeholder="Search by ISBN, Title,or Author">
+                      <div class="site-search-btn"><button class="" name="button">Find a book</button></div></div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- code written by Arun: end -->
+            <!-- code written by Shiva: end -->
 
+            <!-- code written by Arun: begin -->
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                  <div class="shipping-block">
+                    <div class="icon-block">
+                      <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="block-caption">
+                      <h3 class="text1">Free Shipping</h3>
+                      <h5 class="text2">Both Ways</h5>
+                      <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                  <div class="shipping-block">
+                    <div class="icon-block">
+                      <i class="fa fa-refresh"></i>
+                    </div>
+                    <div class="block-caption">
+                      <h3 class="text1">Easy Returns</h3>
+                      <h5 class="text2">It's fast!</h5>
+                      <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                  <div class="shipping-block">
+                    <div class="icon-block">
+                      <i class="fa fa-pencil"></i>
+                    </div>
+                    <div class="block-caption">
+                      <h3 class="text1">Take Notes</h3>
+                      <h5 class="text2">Feel free to highlight</h5>
+                      <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 feature-block">
+                  <div class="shipping-block">
+                    <div class="icon-block">
+                      <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                    <div class="block-caption">
+                      <h3 class="text1">Satisfication</h3>
+                      <h5 class="text2">Guranteed</h5>
+                      <a href="#" class="btn-link">Learn more &nbsp;<span style="color: #fff;">>></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- code written by Arun: end -->
+          </div>
         </div>
-      </div>
-      <!-- header -->
-    </div>
-  </div>
-  <!-- main container block end -->
-
-<!-- Code written by Arun: Starts -->
-  <!--Featured Books block starts -->
-<div class="container-fluid" style="background-color: #fff;">
-  <div class="row main-content">
-    <div class="content-title">
-          <h4>Featured Books</h4>
-    <div class="category-block">
-      <div class="col-xs-12 col-sm-6 col-md-3 category-block__outer">
-        <div class="content-block">
-          <div class="book-image">
-            <img src="img/img01.jpg" alt="Book image1">
-          </div>
-          <div class="book-image__desc">
-            <h5 class="book-title">Incididunt ut labore et dolore</h5>
-            <dl class="book-desc">
-              <dt>SBN:</dt>
-                <dd>82343452</dd>
-              <dt>Author(s):</dt>
-                <dd>Conse cter adipsicing</dd>
-              <dt>Edition:</dt>
-                <dd>Elit sed to eludum tempor</dd>
-              <dt>Binding:</dt>
-                <dd>Indicient ut labore</dd>
-            </dl>
-          </div>
-            <a href="#" class="btn btn-primary" style="background-color: #feb204;">Learn more  >></a>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-3 category-block__outer">
-        <div class="content-block">
-          <div class="book-image">
-            <img src="img/img02.jpg" alt="Book image1">
-          </div>
-          <div class="book-image__desc">
-            <h5 class="book-title">Incididunt ut labore et dolore</h5>
-            <dl class="book-desc">
-              <dt>SBN:</dt>
-                <dd>82343452</dd>
-              <dt>Author(s):</dt>
-                <dd>Conse cter adipsicing</dd>
-              <dt>Edition:</dt>
-                <dd>Elit sed to eludum tempor</dd>
-              <dt>Binding:</dt>
-                <dd>Indicient ut labore</dd>
-            </dl>
-          </div>
-            <a href="#" class="btn btn-primary">Learn more  >></a>
-        </div>
-      </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-3 category-block__outer">      
-        <div class="content-block">
-          <div class="book-image">
-            <img src="img/img03.jpg" alt="Book image1">
-          </div>
-          <div class="book-image__desc">
-            <h5 class="book-title">Incididunt ut labore et dolore</h5>
-            <dl class="book-desc">
-              <dt>SBN:</dt>
-                <dd>82343452</dd>
-              <dt>Author(s):</dt>
-                <dd>Conse cter adipsicing</dd>
-              <dt>Edition:</dt>
-                <dd>Elit sed to eludum tempor</dd>
-              <dt>Binding:</dt>
-                <dd>Indicient ut labore</dd>
-            </dl>
-          </div>
-            <a href="#" class="btn btn-primary">Learn more  >></a>
-        </div>
-      </div>
-    
-      <div class="col-xs-12 col-sm-6 col-md-3 category-block__outer">
-        <div class="content-block">
-          <div class="book-image">
-            <img src="img/img04.jpg" alt="Book image1">
-          </div>
-          <div class="book-image__desc">
-            <h5 class="book-title">Incididunt ut labore et dolore</h5>
-            <dl class="book-desc">
-              <dt>SBN:</dt>
-                <dd>82343452</dd>
-              <dt>Author(s):</dt>
-                <dd>Conse cter adipsicing</dd>
-              <dt>Edition:</dt>
-                <dd>Elit sed to eludum tempor</dd>
-              <dt>Binding:</dt>
-                <dd>Indicient ut labore</dd>
-            </dl>
-          </div>
-            <a href="#" class="btn btn-primary">Learn more  >></a>
-        </div>
+        <!-- header -->
       </div>
     </div>
-  </div>
- </div>
-</div>
-<!-- featured Books block ends -->
-<!-- Code written by Arun: end -->
+    <!-- main container block end -->
+    <!-- top-categories by Akanksha begin -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="top-categories-container">
+          <div class="container">
+            <div class="row">
+          <div class="top-categories-heading">Top Categories:
+          </div>
+            <div class="col-sm-6 col-md-3">
+                <h4 class="cate1" style="background-color:#000;">Arts & Photography</h4>
+                <div class="subtext">
+                <a href="#">Design & Decorative Arts</a><br>
+                <a href="#">Art History & Criticicm Textbooks</a><br>
+                <a href="#">Other Media</a><br>
+              <a href="#"style="color:#000; font-weight:bold">+ More</a><br></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4 class="cate1">Biographies & memories</h4>
+                <div class="subtext">
+                <a href="#">Historical</a><br>
+                <a href="#">Leaders & Notable People</a><br>
+                <a href="#">Memories</a><br>
+                <a href="#"style="color:#000; font-weight:bold">+ More</a><br></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4 class="cate1">Business</h4>
+                <div class="subtext">
+                <a href="#">Economics</a><br>
+                <a href="#">Finance</a><br>
+                <a href="#">Management & Leadership</a><br>
+                <a href="#"style="color:#000; font-weight:bold">+ More</a><br></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h4 class="cate1">Computers & Internet</h4>
+                <div class="subtext">
+                <a href="#">Computer science textbooks</a><br>
+                <a href="#">Databases</a><br>
+                <a href="#">Operating Systems</a><br>
+                <a href="#"style="color:#000;font-weight:bold">+ More</a><br>
+              </div></div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6 col-md-3">
+              <h4 class="cate1">Arts & Photography</h4>
+              <div class="subtext">
+              <a href="#">Design & Decorative Arts</a><br>
+              <a href="#">Art History & Criticicm Textbooks</a><br>
+              <a href="#">Other Media</a><br>
+            <a href="#"style="color:#000;font-weight:bold">+ More</a><br>
+          </div></div>
+          <div class="col-sm-6 col-md-3">
+              <h4 class="cate1">Biographies & memories</h4>
+              <div class="subtext">
+              <a href="#">Historical</a><br>
+              <a href="#">Leaders & Notable People</a><br>
+              <a href="#">Memories</a><br>
+              <a href="#"style="color:#000;font-weight:bold">+ More</a><br>
+          </div></div>
+          <div class="col-sm-6 col-md-3">
+              <h4 class="cate1">Business</h4>
+              <div class="subtext">
+              <a href="#">Economics</a><br>
+              <a href="#">Finance</a><br>
+              <a href="#">Management & Leadership</a><br>
+              <a href="#"style="color:#000;font-weight:bold">+ More</a><br>
+          </div></div>
+          <div class="col-sm-6 col-md-3">
+              <h4 class="cate1">Computers & Internet</h4>
+                <div class="subtext">
+              <a href="#">Computer science textbooks</a><br>
+              <a href="#">Databases</a><br>
+              <a href="#">Operating Systems</a><br>
+              <a href="#"style="color:#000;font-weight:bold">+ More</a><br>
+            </div></div>
+        </div>
+        <div class="btn-all-categories">
+          <button type="button">See all categories >>
+          </button>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top-categories by Akanksha end -->
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+  </html>
