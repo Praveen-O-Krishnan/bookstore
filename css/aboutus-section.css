@@ -3,7 +3,6 @@
   width: auto;
   height: 960px;
   background: url("../img/site-banner-2.jpeg") no-repeat 100% 0;
-  margin-top: 50px;
 }
 @media only screen and (min-width: 375px) {
   .secondbanner {

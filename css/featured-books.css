@@ -1,5 +1,15 @@
 /***** Featured Books added by Arun ****/
 
+.category-block__outer {
+	padding: 20px 0;
+}
+
+@media only screen and (min-device-width: 1200px) {
+	.category-block__outer {
+		padding: 40px 0;
+	}
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
 .content-title h4 {
   font-size: 25px;
@@ -107,9 +117,7 @@
   border-style: none;
   margin-left: 75px;
   }
-.category-block__outer {
-  margin-left: -15px;
-  }
+
 .category-block {
   margin: 25px 30px 10px 20px;
   }
