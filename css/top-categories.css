@@ -31,35 +31,37 @@ padding-bottom: 30px;
   text-align: left;
 
 }
+
+@media only screen and (min-width:768px) {
+.cate1 {
+  font-size: 15px;
+  }
+}
+
 @media only screen and (min-width:1200px) {
-.cate1{
+.cate1 {
+  font-size: 16px;
   margin-left: 30px;
   }
 }
-@media only screen and (min-width:768px) {
-.cate1{
-  font-size: 18px;
-  }
-}
-.subtext a{
+
+.subtext a {
+  display: block;
+  margin: 5px 0;
   font-size: 15px;
-  position:relative;
   padding-left: 40px;
   letter-spacing: normal;
   text-decoration: none;
 }
-@media only screen and (min-width:1024px) {
-.subtext a{
-  font-size:13px;
-    padding-left:20px;
-  }
-}
+
 @media only screen and (min-width:1200px) {
-.subtext a{
-  font-size:15px;
+.subtext a {
+    margin: 10px 0;
+    font-size:13px;
     padding-left:40px;
   }
 }
+
 button{
   background-color: Transparent;
   border-radius: 1px;
