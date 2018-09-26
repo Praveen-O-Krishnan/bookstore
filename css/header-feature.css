@@ -13,8 +13,8 @@
   .shipping-block {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 6px;
-    margin: 20px 0 0px 0px;
-    padding: 20px 0 0 10px;
+    margin: 20px 0 014px 0px;
+    padding: 20px 0 10px 10px;
     }
 }
 
@@ -55,14 +55,35 @@
 /*Mobile Device Media Query ends */
 
 /*Ipad 1024 Device Media Query starts */
+.fa-truck{
+  font-size: 30px;
+}
+.fa-refresh{
+  font-size: 30px;
+}
+.fa-pencil{
+  font-size: 30px;
+}
+.fa-thumbs-o-up{
+  font-size: 30px;
+}
 
-@media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width:768px)  {
 .shipping-block {
 	background-color: rgba(0, 0, 0, 0.4);
-	width: 100%;
+	width: 90%;
 	border-radius: 6px;
-	margin: 40px 0 25px 0px;
-	padding: 20px 0 0 20px;
+	margin: 25px 0 15px 16px;
+	padding: 10px 40px 10px 20px;
+	}
+}
+@media only screen and(min-width: 1024px) {
+.shipping-block {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 110%;
+	border-radius: 6px;
+	margin: 25px 0 15px 0  ;
+	padding: 10px 0 10px 10px;
 	}
 }
 
@@ -83,6 +104,7 @@
 @media only screen and (min-device-width:768px) and (max-device-width: 1024px) {
   .text1 {
     font-size: 20px;
+    margin-top: 26px;
     }
 }
 
@@ -107,7 +129,7 @@
 	.feature-block {
 		margin: 0px;
 		padding: 50px 5px;
-	
+
 	}
 }
 
@@ -124,6 +146,7 @@
 		float: left;
 		color: #ffbc00;
 		margin: 5px;
+
 }
 
 @media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
@@ -136,6 +159,7 @@
 @media only screen and (min-device-width:1200px) and (max-device-width: 1900px) {
   .text1 {
     font-size: 15px;
+    margin-top:13px;
     }
 }
 
@@ -150,7 +174,7 @@
   .btn-link {
     font-size: 12px;
     color: #59a291;
-    padding-top: 10px;  
+    padding-top: 10px;
    }
 }
 /*Desktop Device Media Query ends */

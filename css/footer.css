@@ -1,0 +1,92 @@
+.footer-bg-color{
+  background-color: #262626;
+  width: 100%;
+}
+.footer-head-text{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.footercatgtext dt{
+  font-size: 13px;
+}
+.footercatgtext dd{
+  color: #1bbfa4;
+  font-size: 12px;
+  padding: 1px;
+}
+.fbicon{
+  width: 10px;
+  height: 10px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.twittericon{
+  width: 10px;
+  height: 10px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.skypeicon{
+  width: 10px;
+  height: 10px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.footercatgtext .footerimg{
+  width: 250px;
+  margin-left: 19px;
+}
+.footer{
+  border-top: 1px solid #fff;
+}
+.footertext{
+  position: absolute;
+  color: #626262;
+  margin-left:90px;
+  margin-top: 10px;
+}
+.imgfooter{
+  width:30px;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+.logotext2{
+  position: absolute;
+  font-size: 13px;
+  padding-left: 1px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media only screen and (min-width:568px) {
+.logoimagefooter {
+margin-left: 150px;
+  }
+}
+@media only screen and (min-width:768px) {
+.logoimagefooter {
+margin-left: 220px;
+  }
+}
+@media only screen and (min-width:1024px) {
+.logoimagefooter {
+margin-left: 320px;
+  }
+}
+@media only screen and (min-width:1200px) {
+.logoimagefooter {
+margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+.footertext {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width:1200px) {
+.footertext {
+    margin-left: 82px;
+    margin-top: 10px;
+  }
+}
